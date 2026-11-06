@@ -22,6 +22,9 @@ I am a Computer Science Engineering student passionate about technology, web dev
 - Contact section
 - Smooth navigation
 
+## Project Purpose
+
+The main objective of this project is to create an online professional presence, showcase my work, and provide an easy way for visitors and recruiters to explore my skills and projects.
 
 ## Run Locally
 
@@ -34,13 +37,6 @@ git clone https://github.com/yourusername/my-portfolio.git
 2. Open the project folder.
 3. Open `index.html` in your browser.
 
-## Contact
-
-- GitHub: https://github.com/yourusername
-- LinkedIn: Add your LinkedIn profile URL
-- Email: Add your email address
-
----
 
 **Developed by M. Harshath**
 
