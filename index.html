@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Harshath | Portfolio</title>
+  <meta name="description" content="Portfolio of Harshath, a final-year Computer Science and Engineering student building Python, computer vision, web and IoT projects.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- NAVIGATION -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="logo" aria-label="Harshath, home">Harshath<span>.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks"><i class="fa-solid fa-bars"></i></button>
+      <nav aria-label="Main">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="hello">Hi, I'm</p>
+          <h1>Harshath</h1>
+          <h2 class="role">Software Engineer <span>(Final-year CSE student)</span></h2>
+          <p class="lead">I build Python applications and web interfaces, turning ideas into functional projects and working demos. I'm currently seeking my first opportunity as a Software Engineer.</p>
+          <div class="btns">
+            <a class="btn primary" href="#projects">View My Work</a>
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </div>
+          <div class="socials">
+            <a href="https://github.com/Hxrshath" target="_blank" rel="noopener" aria-label="GitHub profile"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/mharshath" target="_blank" rel="noopener" aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:harshath190305@gmail.com" aria-label="Send email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+        <!-- Replace the placeholder with: <img src="images/profile.jpg" alt="Photo of Harshath"> -->
+        <div class="photo"><img src="D:\Harsha\Certificates\Pass photo.png" alt="Photo of Harshath"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container reveal">
+        <h2 class="title">About me</h2>
+        <p class="about-text">I'm a final-year Computer Science and Engineering student with hands-on experience building Python applications, web interfaces with HTML, CSS and JavaScript, and MySQL-backed data handling. My projects span voice automation, real-time computer vision and IoT, each taken from design through a working prototype.</p>
+        <p class="about-text">I'm strong at debugging, quick to learn new tools, and I enjoy collaborating in a team to deliver reliable, maintainable software.</p>
+        <ul class="facts">
+          <li><i class="fa-solid fa-location-dot"></i> Tamil Nadu, India</li>
+          <li><i class="fa-solid fa-language"></i> Tamil (Native), English (Professional)</li>
+          <li><i class="fa-solid fa-envelope"></i> harshath190305@gmail.com</li>
+          <li><i class="fa-solid fa-phone"></i> +91 7358580740</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section alt">
+      <div class="container reveal">
+        <h2 class="title">Education</h2>
+        <div class="timeline">
+          <article class="tl-item">
+            <span class="date">2024 – 2027 (Expected)</span>
+            <h3>Bachelor of Engineering (B.E.), Computer Science and Engineering</h3>
+            <p>Dhanalakshmi Srinivasan College of Engineering &amp; Technology (Lateral Entry)</p>
+          </article>
+          <article class="tl-item">
+            <span class="date">2021 – 2024</span>
+            <h3>Diploma in Computer Engineering</h3>
+            <p>Bhaktavatsalam Polytechnic College</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS: only skills listed in the resume or used in its projects -->
+    <section id="skills" class="section">
+      <div class="container reveal">
+        <h2 class="title">Technical skills</h2>
+        <div class="grid skills">
+          <div class="card"><h3><i class="fa-solid fa-code"></i> Programming languages</h3>
+            <div class="tags"><span><i class="fa-brands fa-python"></i> Python</span><span><i class="fa-brands fa-js"></i> JavaScript</span></div></div>
+          <div class="card"><h3><i class="fa-solid fa-window-maximize"></i> Frontend technologies</h3>
+            <div class="tags"><span><i class="fa-brands fa-html5"></i> HTML5</span><span><i class="fa-brands fa-css3-alt"></i> CSS3</span><span><i class="fa-brands fa-js"></i> JavaScript</span></div></div>
+          <div class="card"><h3><i class="fa-solid fa-database"></i> Databases</h3>
+            <div class="tags"><span>MySQL</span><span>DBMS</span></div></div>
+          <div class="card"><h3><i class="fa-solid fa-cubes"></i> Libraries and frameworks</h3>
+            <div class="tags"><span>OpenCV</span><span>MediaPipe</span><span>PyAutoGUI</span><span>SpeechRecognition</span><span>PyAudio</span><span>Tkinter</span></div></div>
+          <div class="card"><h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools and platforms</h3>
+            <div class="tags"><span><i class="fa-brands fa-linux"></i> Linux</span><span>Blynk IoT</span></div></div>
+          <div class="card"><h3><i class="fa-solid fa-microchip"></i> Embedded and hardware</h3>
+            <div class="tags"><span>ESP32</span><span>HC-SR04</span><span>NEO-6M GPS</span><span>SIM800L GSM</span></div></div>
+          <div class="card"><h3><i class="fa-solid fa-people-group"></i> Soft skills</h3>
+            <div class="tags"><span>Teamwork</span><span>Communication</span><span>Dedication</span><span>Adaptability</span><span>Quick learner</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE: the resume lists no jobs or internships, so none are invented -->
+    <section id="experience" class="section alt">
+      <div class="container reveal">
+        <h2 class="title">Experience and internships</h2>
+        <div class="timeline">
+          <article class="tl-item">
+            <span class="date">Available now</span>
+            <h3>Open to internships and entry-level roles</h3>
+            <p>I haven't held a formal job or internship yet. My hands-on experience comes from the projects below and from hackathon teamwork.</p>
+          </article>
+          <article class="tl-item">
+            <span class="date">Hackathons</span>
+            <h3>Team participant</h3>
+            <p>Worked in teams to turn ideas into working prototypes, including a college-level Smart India Hackathon selection.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container reveal">
+        <h2 class="title">Featured projects</h2>
+        <div class="grid projects">
+          <!-- Replace each GitHub href with the specific repository URL -->
+          <article class="card project">
+            <i class="fa-solid fa-microphone-lines pic"></i>
+            <h3>Nova AI: Python voice assistant</h3>
+            <p>A hands-free assistant that recognizes spoken commands and replies with speech.</p>
+            <ul><li>Searches for songs, plays them and opens YouTube by voice</li><li>Built command handling with SpeechRecognition, PyAudio and webbrowser</li></ul>
+            <div class="tags"><span>Python</span><span>SpeechRecognition</span><span>PyAudio</span><span>webbrowser</span></div>
+            <a class="link" href="https://github.com/Hxrshath/Nova-AI" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+          </article>
+          <article class="card project">
+            <i class="fa-solid fa-hand-pointer pic"></i>
+            <h3>Virtual mouse using hand gestures</h3>
+            <p>A real-time computer vision tool that moves the cursor and clicks from webcam hand gestures.</p>
+            <ul><li>Tracks hand landmarks with MediaPipe and OpenCV</li><li>Automates mouse control with PyAutoGUI</li></ul>
+            <div class="tags"><span>Python</span><span>OpenCV</span><span>MediaPipe</span><span>PyAutoGUI</span></div>
+            <a class="link" href="https://github.com/Hxrshath/Virtual-Mouse" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+          </article>
+           <article class="card project">
+            <i class="fa-solid fa-folder-tree pic"></i>
+            <h3>File Organizer: Desktop app</h3>
+            <p>A GUI app that sorts a chosen folder into images, videos, audio, documents, archives and code.</p>
+            <ul><li>Never overwrites existing files; reports files moved, skipped or failed</li><li>Uses multithreading with a queue to keep the interface responsive</li></ul>
+            <div class="tags"><span>Python</span><span>Tkinter</span><span>pathlib</span><span>shutil</span><span>threading</span><span>queue</span><span>dataclasses</span></div>
+            <a class="link" href="https://github.com/Hxrshath/File-Organizer" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+          </article>
+          <article class="card project">
+            <i class="fa-solid fa-folder-tree pic"></i>
+            <h3>Password Generator: Desktop app</h3>
+            <p>A Python desktop application that generates secure random passwords with customizable length and character options, along with password strength analysis.</p>
+            <ul><li>Generates strong passwords using Python's secrets module</li><li>Includes password strength analysis, entropy calculation, and clipboard copying</li></ul>
+            <div class="tags"><span>Python</span><span>Tkinter</span><span>secrets</span><span>string</span><span>math</span><span>dataclasses</span></div>
+            <a class="link" href="https://github.com/Hxrshath/Password-Generator" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+          </article>
+          <article class="card project">
+            <i class="fa-solid fa-glasses pic"></i>
+            <h3>IoT smart glass with GPS navigation</h3>
+            <p>A wearable that detects obstacles ahead and helps users move around more safely.</p>
+            <ul><li>Live GPS tracking and GSM alert messaging</li><li>Mobile monitoring dashboard for remote supervision</li></ul>
+            <div class="tags"><span>ESP32</span><span>HC-SR04</span><span>NEO-6M GPS</span><span>SIM800L GSM</span><span>Blynk IoT</span></div>  
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section alt">
+      <div class="container reveal">
+        <h2 class="title">Certifications and achievements</h2>
+        <div class="grid ach">
+          <div class="card"><i class="fa-solid fa-trophy"></i><h3>Smart India Hackathon</h3><p>Selected at college level for the project "Smart Classroom and Timetable Scheduling".</p></div>
+          <div class="card"><i class="fa-solid fa-certificate"></i><h3>Bajaj Manufacturing Systems: Employability Skills (BMS-ES)</h3><p>Completed the course, a CSR initiative of Bajaj Auto Ltd.</p></div>
+          <div class="card"><i class="fa-solid fa-users"></i><h3>Hackathon participant</h3><p>Took part as a team member, converting ideas into working prototypes.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container reveal contact-grid">
+        <div>
+          <h2 class="title">Contact me</h2>
+          <p class="about-text">I'm looking for software engineering opportunities. Send a message and I'll reply by email.</p>
+          <ul class="facts">
+            <li><i class="fa-solid fa-envelope"></i> <a href="mailto:harshath190305@gmail.com">harshath190305@gmail.com</a></li>
+            <li><i class="fa-solid fa-phone"></i> <a href="tel:+917358580740">+91 7358580740</a></li>
+            <li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/mharshath" target="_blank" rel="noopener">linkedin.com/in/mharshath</a></li>
+            <li><i class="fa-brands fa-github"></i> <a href="https://github.com/Hxrshath" target="_blank" rel="noopener">github.com/Hxrshath</a></li>
+          </ul>
+        </div>
+        <form id="contactForm" class="card form" novalidate>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+          <small class="err" id="nameErr" role="alert"></small>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+          <small class="err" id="emailErr" role="alert"></small>
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" required>
+          <small class="err" id="subjectErr" role="alert"></small>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <small class="err" id="messageErr" role="alert"></small>
+          <button class="btn primary" type="submit">Send message</button>
+          <p class="status" id="formStatus" role="status"></p>
+          <p class="note">Note: a static site can't send email by itself. This form opens your email app with the message filled in.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Harshath. Software Engineer</p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>
